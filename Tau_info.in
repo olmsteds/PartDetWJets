@@ -32,17 +32,17 @@ LeadTrackThreshold 3.0
 
 DoDiscrByIsolation true
 //1 = VLoose, 2 = Loose, 4 = Medium, 8 = Tight, 16 = VTight, 32 = VVTight
-DiscrByMinIsolation 1
-DiscrByMaxIsolation 8
+DiscrByMinIsolation 0
+DiscrByMaxIsolation 16
 FlipIsolationRequirement false
 DiscrByProngType true
-ProngType  1or2or3hps
+ProngType  1or3hps
 decayModeFindingNewDMs false
 decayModeFinding true
 
 DoDiscrAgainstElectron true
 //1 = VLoose, 2 = Loose, 4 = Medium, 8 = Tight, 16 = VTight
-DiscrAgainstElectron 2
+DiscrAgainstElectron 1
 SelectTausThatAreElectrons false
 
 DoDiscrAgainstMuon true
@@ -52,8 +52,7 @@ SelectTausThatAreMuons false
 
 DoDiscrByCrackCut false
 
-RemoveOverlapWithMbyVTightIsolationMVArun2v1DBnewDMwLT
-uon1s true
+RemoveOverlapWithMuons1 true
 RemoveOverlapWithMuon2s true
 Muon1MatchingDeltaR 0.3
 Muon2MatchingDeltaR 0.3
@@ -86,7 +85,7 @@ LeadTrackThreshold 5.0
 DoDiscrByIsolation true
 //1 = VLoose, 2 = Loose, 4 = Medium, 8 = Tight, 16 = VTight, 32 = VVTight
 DiscrByMinIsolation 1
-DiscrByMaxIsolation 8
+DiscrByMaxIsolation 16
 FlipIsolationRequirement true
 DiscrByProngType true
 ProngType  1or3hps

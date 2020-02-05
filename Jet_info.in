@@ -35,7 +35,7 @@ RemoveOverlapWithTau2s 1
 Tau1MatchingDeltaR  0.3
 Tau2MatchingDeltaR 0.3
 
-RemoveOverlapWithBs 1
+RemoveOverlapWithBs 0
 BJMatchingDeltaR 0.3
 
 ########################################
@@ -61,7 +61,7 @@ RemoveOverlapWithTau2s 1
 Tau1MatchingDeltaR  0.3
 Tau2MatchingDeltaR 0.3
 
-RemoveOverlapWithBs 1
+RemoveOverlapWithBs 0
 BJMatchingDeltaR 0.3
 
 ####################################
@@ -161,6 +161,6 @@ Tau2MatchingDeltaR 0.3
 ApplyJetBTagging 1
 JetBTaggingCut  0.8484
 MatchBToGen     0
-UseBtagSF       1
-RemoveBJetsFromJets 1
+UseBtagSF       0
+RemoveBJetsFromJets 0
 

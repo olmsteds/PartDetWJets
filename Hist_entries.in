@@ -76,7 +76,7 @@ Tau1SeedTrackPt        2000   0.    5000.
 Tau1Charge               10  -5.       5.
 Tau1MetMt		 200  0.       1000.
 
-FillTau2 0
+FillTau2 1
 
 NTau2                    20   0.      20.
 Tau2Energy             2000   0.    5000.

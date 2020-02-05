@@ -2,15 +2,15 @@
               DiTau
 #######################################
 
-DiscrByDeltaR  true
+DiscrByDeltaR  false
 DeltaRCut      0.3
 
 DiscrByOSLSType  OS	#### OS or LS
 DiscrByCosDphi	 false
 CosDphiCut 	 -1.00   -0.80
 
-DiscrByMassReco  true
-HowCalculateMassReco  VectorSumofVisProductsAndMet       ###VectorSumOfVisProductsAndMet   or    CollinearApprox 
+DiscrByMassReco  false
+HowCalculateMassReco  VectorSumOfVisProductsAndMet       ###VectorSumOfVisProductsAndMet   or    CollinearApprox 
 MassCut          120.0   9999.9
 
 DiscrByCDFzeta2D          false

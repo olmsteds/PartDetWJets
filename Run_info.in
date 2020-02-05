@@ -17,11 +17,11 @@ ApplyGenWeight  true
 
 ///------Triggers-----///
 
-Trigger1FirstRequirement HLT_DoubleMediumIsoPFTau40_Trk1_eta2p1_Reg
-Trigger1SecondRequirement HLT_DoubleMediumIsoPFTau40_Trk1_eta2p1_Reg
+Trigger1FirstRequirement HLT_DoubleMediumIsoPFTau
+Trigger1SecondRequirement HLT_DoubleMediumCombinedIsoPFTau
 
-Trigger2FirstRequirement HLT_DoubleMediumIsoPFTau40_Trk1_eta2p1_Reg
-Trigger2SecondRequirement HLT_DoubleMediumIsoPFTau40_Trk1_eta2p1_Reg
+Trigger2FirstRequirement HLT_DoubleMediumIsoPFTau
+Trigger2SecondRequirement HLT_DoubleMediumCombinedIsoPFTau
 
 ///---Treat Muon as Neutrino---///
 
@@ -31,7 +31,7 @@ TreatMuonsAsTaus 0
 ///-----MET cuts------///
 
 MT2Mass 0.
-DiscrByMet false
+DiscrByMet true
 MetCut 30.0 10000.0
 
 DiscrByMHT false
